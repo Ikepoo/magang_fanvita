@@ -1,0 +1,53 @@
+.content-barang {
+  width: 15rem;
+  height: 20rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: white;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: auto; /* Center the element horizontally */
+  font-size: 1.2rem;
+}
+
+.border-20 {
+  border-radius: 20px;
+}
+
+.center-object {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.padding-container {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.svg-color-white {
+  color: white;
+}
