@@ -8,6 +8,9 @@ module.exports = {
           "url('./source/background/jason-goodman-Oalh2MojUuk-unsplash.jpg')",
       },
     },
+    screens: {
+      sm: "400px",
+    },
   },
   plugins: [],
 };
